@@ -3,11 +3,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Retrun: Always return 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
+
 	int m;
 
 	srand(time(0));
