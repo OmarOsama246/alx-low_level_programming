@@ -5,19 +5,18 @@
  * Return:void
  */
 
-void print_plahabet_x10(void)
+void print_aplahabet_x10(void)
 {
     char c;
-    int i = 0;
+    int i= 0;
 
-    while (i <= 90)
+    while (i <= 9)
     {
-    for (c = 'a'; c <= 'z'; c++)
-	{
- 	_putchar(c);
-	}
-
-	_putchar('\n');
-	i++;
+	    for (c = 'a'; c <= 'z';c++)
+	    {
+		    _putchar(c);
+	    }
+	    _putchar('\n');
+	    i++;
     }
 }
